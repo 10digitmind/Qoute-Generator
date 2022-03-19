@@ -1,0 +1,188 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ 
+}
+
+body{
+ 
+  display: block;
+  background-color: rgb(190, 60, 13);
+ 
+}
+.my-name{
+  text-align: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.kenny{
+  text-transform: capitalize;
+  color: rgb(255, 255, 255);
+  font-family: 'Roboto Mono', monospace;
+  position: relative;
+  top: 90px;
+  font-size: 35px;
+  animation: ken 2s ease 0s 1 normal forwards;
+ 
+}
+
+
+
+.kenny-delay{
+  animation: ken 2s ease 0s 1 normal forwards;
+}
+
+.quote-container{
+  width: 550px;
+  height: 350px;
+  background-color: rgb(255, 255, 255);
+  margin: 0 auto;
+  align-items: center;
+  border-radius:5px ;
+  box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.6);
+  text-align: center;
+  position: relative;
+  top: 240px;
+  
+  
+  animation: myAnim 1s ease 0s 1 normal forwards;
+}
+
+.quote-text{
+  font-family: 'Roboto Mono', monospace;
+padding-top: 40px;
+font-size: 30px;
+  
+
+}
+
+
+
+@keyframes ken {
+  0% {
+    transform: scaleX(0.4);
+    transform-origin: 0% 0%;
+  }
+
+  100% {
+    transform: scaleX(1);
+    transform-origin: 0% 0%;
+  }
+}
+
+
+@keyframes myAnim {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.autor-name{
+  font-family: 'Satisfy', cursive;
+  font-size: 20px;
+ float: right;
+ padding-right: 40px;
+ padding-top: 10px;
+
+}
+.quote{
+  color: rgb(190, 60, 13);
+}
+
+.social{
+  text-align: center;
+  align-items: center;
+  margin-top: 80px;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.get-qoute{
+  text-align: center;
+  width: 100px;
+  height: 40px;
+  border-radius:3px;
+  background-color:   rgb(190, 60, 13);
+  font-family: 'Roboto Mono', monospace;
+ border: none;
+ color: white;
+ cursor: pointer;
+ box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.6);
+}
+
+
+.play{
+  text-align: center;
+  width: 60px;
+  height: 40px;
+  border-radius:3px;
+  background-color:   rgb(17, 17, 17);
+  font-family: 'Roboto Mono', monospace;
+ border: none;
+ color: white;
+ cursor: pointer;
+ box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.6);
+ margin-left: 20px;
+ 
+}
+
+button:hover{
+  opacity: 0.8;
+}
+.trans{
+
+  animation: myAnim 3s ease 0s 1 normal forwards;
+  
+}
+
+.body-delay{
+  transition: 2s ease-in-out;
+}
+
+@media (max-width: 767px), (max-height: 440px){
+  body{
+    max-width: 100%;
+    overflow: hidden;
+ 
+ }
+ .quote-container{
+  width: 380px;
+  height: 100%;
+  background-color: rgb(255, 255, 255);
+  margin: 0 auto;
+  align-items: center;
+  border-radius:5px ;
+  box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.6);
+  text-align: center;
+  position: relative;
+  top: 180px;
+ }
+
+ .quote-text{
+  font-family: 'Roboto Mono', monospace;
+padding-top: 40px;
+font-size: 20px;
+  
+
+}
+
+.get-qoute{
+  text-align: center;
+  width: 120px;
+  height: 40px;
+  border-radius:3px;
+  background-color:   rgb(190, 60, 13);
+  font-family: 'Roboto Mono', monospace;
+ border: none;
+ color: white;
+ cursor: pointer;
+ box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.6);
+ margin-bottom: 30px;
+}
+}
