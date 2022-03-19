@@ -55,26 +55,26 @@ const quotes =[
    },
    {
       id: 10,
-      quoteText:  "''",
-      autornName: 'aye',
+      quoteText:  "'Enjoy every moment of life cos you will never have it back'",
+      autornName: '-Adebayo',
 
    },
    {
       id: 11,
-      quoteText:  'two of the best way to start work in the mornning is by having sex',
-      autornName: 'onil',
+      quoteText:  "'Nothing is Permanent '",
+      autornName: '-EDD',
 
    },
    {
       id: 12,
-      quoteText:  'two of the best way to start work in the mornning is by having sex',
-      autornName: 'jsjs',
+      quoteText:  "'Life wont be fair even if you use bleaching cream'",
+      autornName: '-Kehinde Olubode',
 
    },
    {
       id: 13,
-      quoteText:  'two of the best way to start work in the mornning is by having sex',
-      autornName: 'ODHDISHkssSISNSBSNS',
+      quoteText:  "'Interested only in citizen hardship'",
+      autornName: '-Nigeira Gov',
 
    },
 ]
